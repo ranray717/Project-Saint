@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06386b10f29c770408fc88b031c4d7fd, type: 3}
+  m_Name: EditorResources
+  m_EditorClassIdentifier: 
+  resourceCategories:
+  - Id: TextPrinters/76df4fd9-f988-4782-a519-4cd5ff09a5b2
+    Resources:
+    - Name: Dialogue
+      PathPrefix: TextPrinters
+      Guid: 1bc08ccd31adff6439e97161aa6e1d8b
+  - Id: TextPrinters/c2674b80-7d75-4831-ae6d-d125b7cb6928
+    Resources:
+    - Name: Fullscreen
+      PathPrefix: TextPrinters
+      Guid: c87cebd3f0d4f174789cd351ce9591c4
+  - Id: TextPrinters/b3e56c44-0599-4147-8c2c-04b58574bcf0
+    Resources:
+    - Name: Wide
+      PathPrefix: TextPrinters
+      Guid: 781828b806deb1e4cbf50ef9de41da10
+  - Id: TextPrinters/203cf495-6efb-49af-b969-97a23f0fa605
+    Resources:
+    - Name: Chat
+      PathPrefix: TextPrinters
+      Guid: 0126b92e4ff0f564aaa7a38eae3ef6e7
+  - Id: TextPrinters/f17a203d-9648-4f01-b677-5ed88bb50cf4
+    Resources:
+    - Name: Bubble
+      PathPrefix: TextPrinters
+      Guid: b47d9659b2be5ee4e95a776f213c9d4b
+  - Id: TextPrinters/99044661-e0c7-4c6f-ab00-b6e92e1010c4
+    Resources:
+    - Name: TMProDialogue
+      PathPrefix: TextPrinters
+      Guid: 5838611042eaced44954639c4ea4d81e
+  - Id: TextPrinters/ab5e7bbc-1cb5-4728-bffc-e43cebaf3655
+    Resources:
+    - Name: TMProFullscreen
+      PathPrefix: TextPrinters
+      Guid: a2aaa417785eeca409e78c404f333ee5
+  - Id: TextPrinters/6fe962c1-d216-4d79-9d43-3a631ee85d12
+    Resources:
+    - Name: TMProWide
+      PathPrefix: TextPrinters
+      Guid: 7860ef40eae6a3341be02586f7edd980
+  - Id: TextPrinters/8e579abd-019d-4492-8ac5-792fb589b35c
+    Resources:
+    - Name: TMProBubble
+      PathPrefix: TextPrinters
+      Guid: 18cfa78b5fc89b745ba69d51a6a8629a
+  - Id: ChoiceHandlers/bd6b29bb-5b8e-4fb6-a36b-b934e37b0e42
+    Resources:
+    - Name: ButtonList
+      PathPrefix: ChoiceHandlers
+      Guid: 1f6aa29000e839c409e6a9c0704adc96
+  - Id: ChoiceHandlers/3035d461-2f96-4d60-aac1-6b24689d0a5e
+    Resources:
+    - Name: ButtonArea
+      PathPrefix: ChoiceHandlers
+      Guid: 4fa6d62f894ae6e4698bfa8af59e7942
+  - Id: Spawn
+    Resources:
+    - Name: Animate
+      PathPrefix: Spawn
+      Guid: 7bf06fa813bb9c34daf521998fa72ab1
+    - Name: DepthOfField
+      PathPrefix: Spawn
+      Guid: ea76638b26a915946b62907dd1e776fd
+    - Name: DigitalGlitch
+      PathPrefix: Spawn
+      Guid: be75a73ecccb90b4caa5c14edb9ac467
+    - Name: Rain
+      PathPrefix: Spawn
+      Guid: a9117e2fa90704d45b3e1461596c11ee
+    - Name: ShakeBackground
+      PathPrefix: Spawn
+      Guid: 9f56c556ba32fd54fae62347c25a8145
+    - Name: ShakeCamera
+      PathPrefix: Spawn
+      Guid: 1c5b86cf3cfbb1f44ae5641699077da4
+    - Name: ShakeCharacter
+      PathPrefix: Spawn
+      Guid: 1224d69e1592d624cbde93d0f7383d91
+    - Name: ShakePrinter
+      PathPrefix: Spawn
+      Guid: 2795040988e866646801c80024c50be1
+    - Name: Snow
+      PathPrefix: Spawn
+      Guid: 9f4e71cb27fffa04486737d2cf8d622d
+    - Name: SunShafts
+      PathPrefix: Spawn
+      Guid: c4bf810b9b6cc9f44a58fd670678ded4
+  - Id: UI
+    Resources:
+    - Name: ClickThroughPanel
+      PathPrefix: UI
+      Guid: 702c32b2de0c0784b9a66ec90601874f
+    - Name: BacklogUI
+      PathPrefix: UI
+      Guid: 7fba909c66b25324cb77db18679c2c96
+    - Name: CGGalleryUI
+      PathPrefix: UI
+      Guid: 71da50c8dae82bd42ba67528804e820c
+    - Name: ConfirmationUI
+      PathPrefix: UI
+      Guid: 88d03f19bcbff914ba33a7c9895e2d7c
+    - Name: ContinueInputUI
+      PathPrefix: UI
+      Guid: 1add671f8348e8443bcc56290e82fc5e
+    - Name: ExternalScriptsUI
+      PathPrefix: UI
+      Guid: 671ceb4f549ddf046913d7debf113469
+    - Name: LoadingUI
+      PathPrefix: UI
+      Guid: 53aad00e5cf184e458adb001c550518a
+    - Name: MovieUI
+      PathPrefix: UI
+      Guid: f9a211517d1cb1a44964dc2254463049
+    - Name: RollbackUI
+      PathPrefix: UI
+      Guid: a32c73a3aff4b274c85b3ff16c854b07
+    - Name: SaveLoadUI
+      PathPrefix: UI
+      Guid: 8d53726b3d08433479398f02b4780e7f
+    - Name: SceneTransitionUI
+      PathPrefix: UI
+      Guid: e3b234b4273b7f64ab3f1d9fe425ed23
+    - Name: SettingsUI
+      PathPrefix: UI
+      Guid: 65c37f59e9b266f468dd5381fdc03fc3
+    - Name: TipsUI
+      PathPrefix: UI
+      Guid: f5aae572225ee1b4c96d1a17fc5cb073
+    - Name: TitleUI
+      PathPrefix: UI
+      Guid: 464bfe6df7c45784aa51795df4b22ac4
+    - Name: VariableInputUI
+      PathPrefix: UI
+      Guid: bb95f484e341dcd4391a572f22b7d067
+    - Name: PauseUI
+      PathPrefix: UI
+      Guid: 480f5db62ea305c46b89a86496d2a0c9
+  - Id: Scripts
+    Resources:
+    - Name: NaniNovelScriptTest
+      PathPrefix: Scripts
+      Guid: af8221d0f7240e348acc19e1ce18309e
